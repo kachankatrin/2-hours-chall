@@ -1,0 +1,125 @@
+@import 'btn.scss';
+@import 'section-1.scss';
+@import 'section-2.scss';
+@import 'section-3.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  background-repeat: no-repeat;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.9rem;
+}
+
+header {
+  padding-top: 12rem;
+  height: 124.8rem;
+  background-image: url("../img/header-bg-back.png");
+  .header-bg {
+    position: absolute;
+    left: -17%;
+    top: 15%;
+  }
+  .nav-header {
+    // position: absolute;
+    // top: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    ul {
+      width: 30%;
+      align-items: center;
+      padding: 0;
+      display: flex;
+      justify-content: space-evenly;
+      li a {
+        color: white;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        font-family: Chivo-Regular;
+      }
+    }
+  }
+  .article-header {
+    padding-right: 13.3rem;
+    display: flex;
+    height: 72rem;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-flow: column;
+    margin-top: 25rem;
+    
+    div {
+      width: 55.7rem;
+      text-transform: uppercase;
+      h3 {
+        font-size: 4.5rem;
+        color: #ffffff;
+        font-family: Chivo-Regular;
+        text-align: right;
+        margin-bottom: 3rem;
+      }
+      .btn-1 {
+        display: flex;
+        justify-content: flex-end;
+        .lrnmr {
+          font-size: 3.8rem;
+          color: #ffc901;
+          font-family: Chivo-Regular;
+          text-align: right;
+        }
+      }
+    }
+    .book {
+      width: 29rem;
+      font-size: 5.1rem;
+      line-height: 5.6rem;
+      color: #ffffff;
+      font-family: Chivo-Regular;
+      text-align: right;
+      span {
+        color: #ffc901;
+      }
+    }
+  }
+}
+
+
+
+
+
+@font-face {
+  font-family: Chivo-Regular;
+  src: url("../fonts/chivo/Chivo-Regular.otf");
+}
+
+@font-face {
+  font-family: Chivo-Light;
+  src: url("../fonts/chivo/Chivo-Light.otf");
+}
+@font-face {
+  font-family: Atma-Regular;
+  src: url("../fonts/atma/Atma-Regular.ttf")
+}
+@font-face {
+  font-family: overpass-light;
+  src: url("../fonts/overpass/overpass-light.otf");
+}
+@font-face {
+  font-family: overpass-extralight;
+  src: url("../fonts/overpass/overpass-extralight.otf")
+}
+@font-face {
+  font-family: overpass-thin;
+  src: url("../fonts/overpass/overpass-thin.otf");
+}
+@font-face {
+  font-family: overpass-regular;
+  src: url("../fonts/overpass/overpass-regular.otf");
+}
